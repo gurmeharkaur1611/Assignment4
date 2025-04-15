@@ -1,0 +1,63 @@
+/* Basic page setup */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  color: #333;
+}
+
+/* Title styles */
+h1 {
+  color: #ff4081;
+  text-align: center;
+  font-size: 2rem;
+}
+
+/* Container for dog info and image */
+#dog-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  max-width: 500px;
+}
+
+/* Image styles */
+#dog-image {
+  max-width: 400px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 10px;
+}
+
+/* Button styles */
+button {
+  background-color: #ff4081;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #e91e63;
+}
+
+/* Paragraph for breed and student info */
+p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #555;
+}
