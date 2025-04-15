@@ -1,0 +1,80 @@
+/* Page background and overall style */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ffe0f0, #f3e5f5);
+  color: #4b006e;
+  text-align: center;
+  padding: 60px 20px;
+  margin: 0;
+}
+
+/* Title styling */
+h1 {
+  font-family: 'Georgia', serif;
+  color: #d63384;
+  font-size: 36px;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+
+/* Hover effect on title */
+h1:hover {
+  color: #ba0066;
+  letter-spacing: 2px;
+}
+
+/* Button styling */
+button {
+  background-color: #ff66b2;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect on button */
+button:hover {
+  background-color: #e60073;
+  transform: scale(1.05);
+}
+
+/* Lyric output box */
+#output {
+  margin-top: 30px;
+  font-size: 20px;
+  padding: 20px;
+  border-radius: 15px;
+  background: #fff0f5;
+  color: #6a1b9a;
+  border: 2px dashed #d63384;
+  box-shadow: 0 4px 8px rgba(255, 182, 193, 0.3);
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect on output box */
+#output:hover {
+  transform: scale(1.02);
+  background-color: #ffe6f0;
+}
+
+/* Student ID and info */
+#studentInfo {
+  margin-top: 50px;
+  font-style: italic;
+  font-size: 14px;
+  color: #a64d79;
+}
+
+/* Paragraph description */
+#info {
+  font-size: 18px;
+  color: #7a007a;
+  margin-bottom: 25px;
+}
